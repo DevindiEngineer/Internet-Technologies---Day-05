@@ -166,16 +166,33 @@ while (i < 10) {
 do {
     console.log(i);
     i++;
-} while (i < 10);*/
+} while (i < 10);
 
 //---------------Functions--------------------
 
+//public void static in here no need return type - like int /String/double bcz js type is dynamic.
 function add(x,y) {
     return x+y;
 }
 
 let result = add(10,20);
-console.log(result);
+console.log(result);*/
+
+//-----------------Arrays---------------------
+
+let number = [1,2,3,4,5];
+
+for (let index = 0; index < number.length; index++) {
+    console.log(number[index]); 
+}
+
+let line = [1,2,3,4,5,"Devindi","045896"]; // JS type is dynamic we can put string int(numbers) to a same array
+
+for (let index = 0; index < line.length; index++) {
+    console.log(line[index]); 
+}
+
+
 
 
 
