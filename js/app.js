@@ -116,7 +116,7 @@ if(!false){
     console.log("False"); 
 }
 
-//--------------if - else statements--------------
+//--------------if-else statements--------------
 let X = 50;
 let Y = 50;
 
@@ -147,9 +147,9 @@ switch (today) {
         break;
     default:
         console.log("Weekend!");             
-}*/
+}
 
-//-------------loops----------------------
+//----------------loops----------------------
 //for loop
 for (let i = 0; i < 10; i++) {
     console.log(i);
@@ -166,4 +166,18 @@ while (i < 10) {
 do {
     console.log(i);
     i++;
-} while (i < 10);
+} while (i < 10);*/
+
+//---------------Functions--------------------
+
+function add(x,y) {
+    return x+y;
+}
+
+let result = add(10,20);
+console.log(result);
+
+
+
+
+
