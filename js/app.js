@@ -1,4 +1,3 @@
-/*
 console.log("Hello Java Script!");
 
 let name = "Devindi";
@@ -176,7 +175,7 @@ function add(x,y) {
 }
 
 let result = add(10,20);
-console.log(result);*/
+console.log(result);
 
 //-----------------Arrays---------------------
 
@@ -191,6 +190,18 @@ let line = [1,2,3,4,5,"Devindi","045896"]; // JS type is dynamic we can put stri
 for (let index = 0; index < line.length; index++) {
     console.log(line[index]); 
 }
+
+//--------------------OOP---------------------
+//object
+
+let mycustomers = {
+    name: "Devindi",
+    age: 20,
+    isAfterAl: true,
+    salary: 100000.00
+}
+console.log(mycustomers);
+
 
 
 
