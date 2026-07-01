@@ -44,7 +44,7 @@ let salary=75000;
 console.log(typeof salary);
 //number
 let mySalary=125000.00;
-console.log(typeof mySalary); */
+console.log(typeof mySalary); 
 
 //---------------------OPERATORS--------------------------
 // + - * % / 
@@ -60,10 +60,60 @@ console.log(z);
 let a=55;
 let b="55";
 console.log(a==b);//true - dont check the data type
-console.log(a===b);//false - check the data type
+console.log(a===b);//false - check the data type*/
 
+//-----------------logical operators-----------------------
+// or - and - not
+// || - && - !
 
+//----------&&-----------------------
+if(true && true){
+    console.log("true");
+}else{
+    console.log("False"); 
+}
 
+if(false && false){
+    console.log("true");
+}else{
+    console.log("False"); 
+}
+
+if(true && false){
+    console.log("true");
+}else{
+    console.log("False"); 
+}
+//----------||-----------------------
+if(true || true){
+    console.log("true");
+}else{
+    console.log("False"); 
+}
+
+if(false || false){
+    console.log("true");
+}else{
+    console.log("False"); 
+}
+
+if(true || false){
+    console.log("true");
+}else{
+    console.log("False"); 
+}
+//----------!-----------------------
+if(!true){
+    console.log("true");
+}else{
+    console.log("False"); 
+}
+
+if(!false){
+    console.log("true");
+}else{
+    console.log("False"); 
+}
 
 
 
