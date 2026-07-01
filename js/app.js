@@ -1,4 +1,5 @@
-/*console.log("Hello Java Script!");
+/*
+console.log("Hello Java Script!");
 
 let name = "Devindi";
 name = "Wicky";
@@ -60,7 +61,7 @@ console.log(z);
 let a=55;
 let b="55";
 console.log(a==b);//true - dont check the data type
-console.log(a===b);//false - check the data type*/
+console.log(a===b);//false - check the data type
 
 //-----------------logical operators-----------------------
 // or - and - not
@@ -113,7 +114,37 @@ if(!false){
     console.log("true");
 }else{
     console.log("False"); 
+}*/
+
+//--------------if - else statements--------------
+let X = 50;
+let Y = 50;
+
+if (X > Y) {
+    console.log("X is greater than Y");
+} else if (X < Y) {
+    console.log("Y is greater than X");
+} else {
+    console.log("X and Y are equal!");
 }
-
-
-
+//-------------switch----------------------
+let today = 7;
+switch (today) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednessday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    default:
+        console.log("Weekend!");             
+}
