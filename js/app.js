@@ -114,7 +114,7 @@ if(!false){
     console.log("true");
 }else{
     console.log("False"); 
-}*/
+}
 
 //--------------if - else statements--------------
 let X = 50;
@@ -147,4 +147,6 @@ switch (today) {
         break;
     default:
         console.log("Weekend!");             
-}
+}*/
+
+//-------------loops----------------------
