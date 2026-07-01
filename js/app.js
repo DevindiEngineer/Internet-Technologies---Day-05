@@ -1,8 +1,8 @@
-console.log("Hello Java Script!");
+/*console.log("Hello Java Script!");
 
-let myname = "Devindi";
-myname = "Wicky";
-console.log(myname);
+let name = "Devindi";
+name = "Wicky";
+console.log(name);
 
 let answer = "Yes";
 console.log(answer);
@@ -18,13 +18,52 @@ alert("Hello Guys!")
 let phone = "070092";
 console.log(phone);
 
-let name="Webiste making";
-console.log(name);
+let webName="Webiste making";
+console.log(webName);
 
-//-----------------------------------------------
+//-------------------DATA TYPES----------------------------
 
-let firstname = "Devindi";
-console.log(typeof name);
+//String
+let myname = "Devindi";
+console.log(typeof myname);
+
+//boolean
+let isAFterAL=false;
+console.log(typeof isAFterAL);
+
+//object
+let customers =[];
+console.log(typeof customers);
+
+//object
+let customer = {};
+console.log(typeof customer);
+
+//number
+let salary=75000;
+console.log(typeof salary);
+//number
+let mySalary=125000.00;
+console.log(typeof mySalary); */
+
+//---------------------OPERATORS--------------------------
+// + - * % / 
+let x=10;
+let y=20;
+let z=x+y;
+console.log(z);
+
+//-----------------comparison operators--------------------
+// > < >= <= == !=
+// >== <== === !== --> check the type by adding additional =
+
+let a=55;
+let b="55";
+console.log(a==b);//true - dont check the data type
+console.log(a===b);//false - check the data type
+
+
+
 
 
 
